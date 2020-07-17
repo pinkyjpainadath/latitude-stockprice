@@ -15,7 +15,7 @@ Assert.assertEquals (6, getMaxProfit(stockPrices)); // returns 6 (buy at $5 sell
 ## Assumption
 You must buy before you sell. You may not buy and sell in the same time step (at least 1 minute must pass).
 
-##Solution
+## Solution
 We will keep track of the following while traversing the array. This will give the largest difference.
 
 - the minimum number traversed so far
