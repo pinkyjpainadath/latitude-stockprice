@@ -10,7 +10,7 @@ import com.latitude.stockprice.service.StockPriceService;
 
 /**
  * Main class invokes service to
- * 	-  generate random stock price list
+ *  -  generate random stock price list
  *  -  use this price list as input to calculate the best profit
  *
  */
@@ -19,7 +19,7 @@ public class Application  {
 
 	public static void main(String[] args) {
 
-
+		
 		StockPriceService spService = new StockPriceService();
 
 		List<BigDecimal> stockPrices=spService.generateStockPriceList();
